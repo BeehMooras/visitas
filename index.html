@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cartão de Visitas - Anderson</title>
+    <link rel="stylesheet" href="./src/css/estilo.css">
+    <script src="https://kit.fontawesome.com/847f414da2.js" crossorigin="anonymous"></script>
+</head>
+<body onload="Projetos()">
+    <header>
+        <div class="content">
+            <div class="container infors-perfil">
+                <i class="far fa-user" ></i>
+                <h1>Olá, eu sou <span style="color:#ff9d01">Anderson</span></h1>
+                <p>Desenvolvedor Front-End jr</p>
+                <div class="redes-sociais">
+                    <p>Fale Comigo</p>
+                    <ul>
+                        <a href="https://github.com/BeehMooras" target="blanck">
+                        <li><i class="fab fa-github"></i></li></a>
+                        <a href="https://www.linkedin.com/in/anderson-morassuti-a70953236/" target="blanck">
+                        <li><i class="fab fa-linkedin"></i></li></a>
+                        <a href="https://www.instagram.com/beeh_moorassutti/" target="blanck">
+                        <li><i class="fab fa-instagram"></i></li></a>
+                        <a href="https://api.whatsapp.com/send?phone=5567992527734" target="blanck">
+                        <li><i class="fab fa-whatsapp"></i></li></a>
+                    </ul>
+                </div>
+            </div>
+            <div  class="container contato">
+                <p>Baixe meu curriculum vitae</p>
+                <div class="btns">
+                    <!-- FALTA LINK DO CURRICULO -->
+                    <a href="./src/Curriculo Anderson Otello.pdf" download="PDF" type="application/pdf"><button>DOWNLOAD CV</button></a>
+                    <a href="https://api.whatsapp.com/send?phone=5567992527734" target="_blanck"><button>CONTATO</button></a>
+                </div>
+            </div>
+        </div>
+        <div class="content container img">
+            <img class="foto-perfil" src="./src/imagens/imgPerfil.jpg" alt="Foto Perfil">
+        </div>
+    </header>
+    <main>
+        <hr>
+        <p>1 ano de conhecimento na área</p>
+        <h1>Meus Projetos</h1>
+        <div class="projetos" id="projetos">
+        </div>
+    </main>
+    <footer>
+        <button id="clear" onclick="mudaTema()">CLEAR MODE</button>
+        <p>Desenvolvido por <b>Anderson Otello @ E-mail - andersonotellomorassuticabral@hotmail.com</b></p>
+    </footer>
+</body>
+<script src="./src/js/index.js"></script>
+</html>
